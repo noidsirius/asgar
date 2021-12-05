@@ -19,7 +19,7 @@ setup(
     description="Android GUI Screen Analyzer",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://medium-multiply.readthedocs.io/",
+    url="https://github.com/noidsirius/asgar",
     author="Navid Salehnamadi",
     author_email="navid.saleh.n@gmail.com",
     license="GPL3",
