@@ -15,7 +15,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="asgar",
-    version="0.1.1",
+    version="0.1.2",
     description="Android GUI Screen Analyzer",
     long_description=long_description,
     long_description_content_type="text/markdown",
