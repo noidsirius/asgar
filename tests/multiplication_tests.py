@@ -43,6 +43,13 @@ class MultiplicationTestCase(unittest.TestCase):
         result = self.multiplication.multiply(math.pi)
         self.assertEqual(result, math.pi * 2)
 
+    def test_square(self):
+        """Test real number PI multiplied by 2"""
+
+        # 2 multiplied by 2 return 4
+        result = self.multiplication.square()
+        self.assertEqual(result, 4)
+
 
 if __name__ == '__main__':
     unittest.main()

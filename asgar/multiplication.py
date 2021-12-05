@@ -26,6 +26,15 @@ class Multiplication:
 
         return number * self.multiplier
 
+    def square(self):
+        """
+        Multiply the multiplier to itself.
+
+        :return: The result of the multiplication.
+        :rtype: int
+        """
+
+        return self.multiplier * self.multiplier
 
 # # Instantiate a Multiplication object
 # multiplication = Multiplication(2)
